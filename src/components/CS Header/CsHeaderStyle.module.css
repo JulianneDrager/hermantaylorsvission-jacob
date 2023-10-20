@@ -1,0 +1,75 @@
+
+.bookTitleCon{
+    background-image: url(/public/assets/purple-gradient.png);
+   background-color: black;
+}
+
+.subBookTitleCon{
+    margin: auto;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 3em 0;
+}
+.subBookTitle{
+    width: 100%;
+}
+.bookCoverCon{
+    /* display: flex; */
+    padding:  15em ;
+    background-color: black;
+    /* margin: 0 auto;
+    align-items: center;
+    justify-content: center; */
+     position: relative;
+}
+.leftFireBolt{
+    position: absolute;
+    top: -11rem;
+    right: 0;
+    width: 35%;
+}
+.bookCover{
+    width: 60%;
+    position: absolute;
+    top: -2rem;
+    left: -5rem;
+}
+.bookQuoteWrap{
+    /* margin-left: 36em; */
+    position: absolute;
+    top: 0;
+    right: -11rem;
+    
+}
+.quoteCon{
+    position: relative;
+    padding: 3em 0;
+    color: #ffffff;
+    width: 60%;
+    
+}
+.quoteMarkUp{
+    position: absolute;
+    top: 1.5rem;
+    left: -3rem;
+    width: 15%;
+}
+.quoteMarkDown{
+    position: absolute;
+    bottom: 1rem;
+    right: -2rem;
+    transform: rotate(180deg);
+     width: 15%;
+}
+.orderBtn{
+    padding: 1em 5em;
+    background-color: #391F44;
+    border: 2px solid #AA9389;
+    border-radius: .5rem;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 1.2rem;
+    cursor: pointer;
+
+}

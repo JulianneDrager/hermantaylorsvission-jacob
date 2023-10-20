@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Merriweather:wght@400;700&family=Montserrat:ital,wght@0,100;0,300;0,500;1,100&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+.interviewCon{
+    /* background-color: black; */
+    position: relative;
+    font-family: "EB Garamond";
+}
+
+.leftCorner{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60%;
+    height: 200vh;
+     z-index: -1;
+     transform: rotate(180deg);
+     
+}
+.rightCorner{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 200vh;
+    z-index: -1;
+     transform: rotate(180deg);
+}
+.goldWords{
+    color: #AA7F39;
+}
+
+.interviewSubCon{
+display: flex;
+flex-direction:column ;
+justify-content: center;
+align-items: center;
+gap: 2rem;
+color: #ffffff;
+padding: 4em ;
+width: 100%;
+font-size: 1.5rem;
+text-align: center;
+
+}
+.interviewDisplay{
+    width: 80%;
+    height: 65vh;
+    background-color: #391F44;
+}
+.mailCon{
+    margin-top: 6em;
+    font-size: 1.5rem;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    background-color: #AA7F39;
+    padding: 1.5em 5em;
+    width: 100%;
+    font-family: roboto;
+}
+.mailBox{
+    width: 15%;
+    color: #391F44;
+}
+.mailConh2{
+    color: #391F44;
+}
+.footerDesktop{
+    margin-top: 3em;
+}
