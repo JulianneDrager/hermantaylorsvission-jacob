@@ -1,5 +1,5 @@
 import React from "react";
-import HeaderStyle from "./Header.module.css";
+import HeaderStyle from "./css/Header.module.css";
 import TitleImg from "../../images/mobile-header-images/mobile-header-title.png";
 import { Image } from "react-bootstrap";
 

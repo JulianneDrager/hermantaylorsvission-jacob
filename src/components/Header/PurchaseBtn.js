@@ -1,5 +1,5 @@
 import React from "react";
-import HeaderStyle from "./Header.module.css";
+import HeaderStyle from "./css/Header.module.css";
 import { Button } from "react-bootstrap";
 
 const PurchaseBtn = () => {

@@ -10,31 +10,31 @@ const CsDeskTop = () => {
   const bookCol = ComingSoonStyle.bookCol;
   const fireBurstCol = ComingSoonStyle.fireBurstCol;
   const bookRow = ComingSoonStyle.bookRow;
-  const bookCoverCon = ComingSoonStyle.bookCoverCon;
+  const quoteCol = ComingSoonStyle.quoteCol;
   const ComingSoonMainCon = ComingSoonStyle.ComingSoonMainCon;
   const divider = ComingSoonStyle.divider;
 
   return (
     <div className={ComingSoonMainCon}>
       <BookTitle />
-      <div className={bookCoverCon}>
+      <div>
         <Row className={fireBurstCol}></Row>
         <div>
           <Row className={bookRow}>
             <Col xs={6}>
               <Image
                 className={bookCol}
-                style={{ opacity: "0" }}
+                // style={{ opacity: "0" }}
                 src={Book}
                 alt="book"
               />
             </Col>
             <Col id="hi" xs={1} className={divider}></Col>
-            <Col>
+            <Col className={quoteCol}>
               <QuoteSection />
-              <PcDesktop />
             </Col>
           </Row>
+          <PcDesktop />
         </div>
       </div>
     </div>

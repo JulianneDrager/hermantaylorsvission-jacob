@@ -93,17 +93,17 @@
     padding: 1.3rem 2.5rem;
   }
   .headerBtnCs {
-    width: 42vw;
-    padding: 0.2rem 0;
+    /* width: 42vw; */
+    padding: 8px 16px;
     line-height: 1.1rem;
   }
   .sampleText {
     display: none;
   }
 
-  .headerBtnContainer{
+  /* .headerBtnContainer{
     text-align: left;
-  }
+  } */
 }
 
 @media screen and (min-width: 664px) {
@@ -123,9 +123,6 @@
 @media screen and (min-width: 1022px) {
   .headerBtn {
     font-size: 1rem;
-  }
-  .headerBtnCs {
-    width: 442px;
   }
 }
 

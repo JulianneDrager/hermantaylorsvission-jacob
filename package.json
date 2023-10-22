@@ -1,7 +1,8 @@
 {
-  "name": "new-react-app",
+  "name": "hermantaylorsvision.com",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://glorydesigner.com/tmp/hermantaylorsvision.com/",
   "dependencies": {
     "@mui/material": "^5.14.14",
     "@testing-library/jest-dom": "^5.17.0",

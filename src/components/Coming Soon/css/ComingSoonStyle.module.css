@@ -36,6 +36,17 @@
   margin: -191px 0 0 0;
 }
 
+.cornerImage {
+  background-image: url("../../../images/mobile-header-images/mobile-header-fire-bottom.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 2;
+  top: -11.95rem;
+  height: 37.9vh;
+}
+
 @media screen and (min-width: 373px) {
   .bookCol {
     width: 492px;
@@ -43,13 +54,32 @@
   }
 }
 
+
 @media screen and (min-width: 414px) {
   .bookCol {
     margin: 19px 0 0 -148px;
   }
 }
 
+@media screen and (min-width: 450px) {
+  .marginStyle {
+    margin: -241px 0 0 0;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .cornerImage {
+    top: -8.95rem;
+    height: 44.9vh;
+  }
+}
+
 @media screen and (min-width: 600px) {
+  .bookCol {
+    width: 86vw;
+    position: static;
+  }
+
   .bookCoverCon {
     background-image: url("../../../images/coming-soon-images/book-cover-with-fire-bottom.png");
     background-repeat: no-repeat;
@@ -64,21 +94,16 @@
   }
 
   .bookRow {
-    margin-top: -161px;
+    margin-top: -191px;
+    padding: 3vw;
   }
 
   .marginStyle {
-    margin: -256px 0 0 0;
+    margin: -254px 0 0 0;
   }
 
   .fireBurstCol {
     background-size: contain;
-  }
-}
-
-@media screen and (min-width: 687px) {
-  .bookCoverCon {
-    background-position: center right 213px;
   }
 }
 
@@ -95,12 +120,25 @@
   }
 }
 
-@media screen and (min-width: 817px) {
-  .bookRow {
-    margin-top: -261px;
+@media screen and (min-width: 734px) {
+  .marginStyle {
+    margin: -288px 0 0 0;
   }
-  .bookCoverCon {
-    background-position: center right 233px;
+}
+
+@media screen and (min-width: 765px) {
+  .bookCol {
+    width: 79vw;
+  }
+  .bookRow {
+    margin-top: -282px;
+  }
+
+}
+
+@media screen and (min-width: 817px) {
+  .quoteCol {
+    margin: 1vh 0 0;
   }
 }
 
@@ -109,14 +147,23 @@
     margin-top: -261px;
     flex-wrap: nowrap;
   }
-  .bookCoverCon {
-    background-position: center right 249px;
+}
+
+@media screen and (min-width: 1024px) {
+  .bookRow {
+    margin: -273px 0 0 0;
+  }
+  .bookCol {
+    margin: 0 0 0 -239px;
   }
 }
 
-@media screen and (min-width: 1108px) {
-  .bookCoverCon {
-    background-position: center right 369px;
+
+@media screen and (min-width: 1200px) {
+  .bookCol {
+    max-width: 859px;
   }
 }
+
+
 

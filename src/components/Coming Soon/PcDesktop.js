@@ -12,16 +12,16 @@ const PcDesktop = () => {
 
   return (
     <>
-      <Col className={PurchaseCol}>
+
         <div className={divBtn}>
           <BtnCs>
             <h1 className={h1Style}>
-              Purchase {!matchesMW800 && <br />} Your Copy
+              Purchase {!matchesMW800 && <br />} Your Copy from amazon
             </h1>
-            from amazon
+           
           </BtnCs>
         </div>
-      </Col>
+
     </>
   );
 };

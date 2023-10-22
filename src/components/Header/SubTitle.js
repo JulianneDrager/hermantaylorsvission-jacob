@@ -1,5 +1,5 @@
 import React from "react";
-import HeaderStyle from "./Header.module.css";
+import HeaderStyle from "./css/Header.module.css";
 
 const DesktopHeader = () => {
   const contentH2 = HeaderStyle.contentH2;

@@ -6,28 +6,61 @@
   src: url("../../../font/Norwester-eRV6.otf") format("truetype");
 }
 
-.subBookTitle {
-  width: 184%;
-  margin: -22px auto 3px auto;
-}
-
 .bookTitleCon {
   background-image: url(/public/assets/purple-gradient.png);
   background-color: rgb(35 8 39);
   padding: 2rem 0;
   backdrop-filter: contrast(0.5);
+  margin: 0
+}
+
+.smallTitle {
+  font-size: 3vw;
+  line-height: 4vw;
+  margin: 0;
+  word-spacing: .2vw;
+  letter-spacing: .4vw;
+  color: #a67920;
 }
 
 .subBookTitleCon {
-  margin: auto;
-  width: 50%;
-  display: flex;
-  justify-content: center;
-  padding: 3em 0;
+  font-family: "Norwester";
+  text-align: center;
+  line-height: 10vw;
+  font-size: 10vw;
+  padding: 2rem 0;
+  color: white;
 }
 
 @media screen and (min-width: 600px) {
-  .subBookTitle {
-    margin: -53px auto -55px auto;
+  .subBookTitleCon p {
+    padding: 0;
+    margin: 0
+  }
+}
+
+@media screen and (min-width: 664px) {
+  .bookTitleCon {
+    padding: 4rem 0 2rem 0;
+  }
+}
+
+@media screen and (min-width: 736px) {
+  .bookTitleCon {
+    padding: 2rem 0;
+  }
+}
+
+
+@media screen and (min-width: 1023px) {
+  .subBookTitleCon {
+    font-size: 110px;
+    max-width: 997px;
+    line-height: 104px;
+    margin: 0 auto;
+  }
+  .smallTitle {
+    font-size: 28px;
+    line-height: 39px;
   }
 }

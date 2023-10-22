@@ -60,55 +60,48 @@
 @media screen and (min-width: 600px) {
   .rowStyle {
     max-width: 24rem;
-    /* margin: -18px 0 0 -16px; */
   }
   .contentCol {
     margin: 8px 3px 10px -24px;
   }
   .quoteCon {
-    max-width: 300px;
+    width: 52vw;
     position: relative;
     color: #ffffff;
     left: -30px;
     padding: 13px 13px;
     font-family: "Montserrat";
     font-style: italic;
-    font-size: 11.5px;
+  }
+
+  .pStyle {
+    font-size: 1.9vw;
   }
 
   .rightQuoteCol {
-    left: 60px;
+    display: none;
   }
 
   .wrapper {
     background-color: #0000007d;
     padding: 9px 0 8px 0;
-    margin: 0 0 0 -126px;
+    margin: -7px 0 0 -126px;
     width: 288px;
   }
 }
 
-@media screen and (min-width: 768px) {
-  .pStyle {
-    font-size: 0.8rem;
+@media screen and (min-width: 817px) {
+  .wrapper {
+    margin: 0 0 0 -146px;
   }
 }
 
-@media screen and (min-width: 811px) {
+@media screen and (min-width: 845px) {
   .quoteCon {
-    max-width: 322px;
+    max-width: 472px;
   }
-}
-
-@media screen and (min-width: 1023px) {
-  .pStyle {
-    font-size: 1rem;
-  }
-  .quoteCon {
-    max-width: 422px;
-  }
-  .rightQuoteCol {
-    left: 178px;
+  .pStyle{
+    font-size: 15.9px;
   }
 }
 
@@ -116,9 +109,6 @@
   .wrapper {
     background-color: #0000007d;
     padding: 9px 0 8px 0;
-    margin: 0;
     width: 288px;
   }
 }
-
-

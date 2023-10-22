@@ -7,6 +7,7 @@ import PurchaseSection from "./PurchaseCol";
 import BookTitle from "./BookTitle";
 import useMediaQuery from "../UseMediaQuery";
 import CsDesktop from "./CsDesktop";
+import Btn from "../ui/Btn";
 
 const ComingSoon = () => {
   const bookCol = ComingSoonStyle.bookCol;
@@ -14,6 +15,7 @@ const ComingSoon = () => {
   const bookRow = ComingSoonStyle.bookRow;
   const bookCoverCon = ComingSoonStyle.bookCoverCon;
   const ComingSoonMainCon = ComingSoonStyle.ComingSoonMainCon;
+  const cornerImage = ComingSoonStyle.cornerImage;
   const matchesMinWidth765 = useMediaQuery("(min-width:600px)");
 
   return (
@@ -30,6 +32,10 @@ const ComingSoon = () => {
               <PurchaseSection />
             </Row>
             <QuoteSection />
+            <div style={{ margin: " 1rem 0 0 0" }}>
+              <Btn>CONTACT HERMAN TODAY</Btn>
+            </div>
+            <div className={cornerImage}></div>
           </div>
         </div>
       )}
