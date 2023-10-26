@@ -10,7 +10,7 @@
     position: relative;
     z-index: 1;
     width: clamp(320px, 100%, 600px);
-    padding: 14vw 0;
+    padding: 10vw 0;
 
     background-color: #a88d4d;
     display: flex;
@@ -27,13 +27,13 @@
     background-size: cover;
 
     width: 100%;
-    aspect-ratio: 600 / 422;
+    aspect-ratio: 600 / 362;
 }
 
 .imgTopper {
     position: absolute;
     z-index: 2;
-    top: -230px;
+    top: -43vw;
 
     background-image: url("../../../images/mobile-interview-images/mobile-top-fire.png");
     background-size: cover;
@@ -41,7 +41,7 @@
     width: 100%;
     aspect-ratio: 693 / 541;
 
-    border: red 2px dashed;
+    /* border: red 2px dashed; */
 }
 
 .contentCon {
@@ -70,8 +70,8 @@
 
     font-family: "Norwester";
     text-align: center;
-    font-size: 6vw;
-    line-height: 6vw;
+    font-size: 7vw;
+    line-height: 7vw;
     letter-spacing: 0.4vw;
     color: white;
     text-transform: uppercase;
@@ -84,11 +84,14 @@
 .videoCon {
     margin-top: 5vw;
     width: 90%;
-    aspect-ratio: 3 / 2;
+    aspect-ratio: 560 / 314;
     background-color: #3b1c48;
 }
 
 .videoCon > iframe {
+    margin-bottom: -7px;
+    width: 100%;
+    aspect-ratio: 560 / 314;
     border: none;
     overflow: hidden;
 }
