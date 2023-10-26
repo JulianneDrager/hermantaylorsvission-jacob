@@ -27,14 +27,14 @@ const Interview = () => {
                 <main className={mainCon}>
                     <div className={imgBackground}></div>
                     <div className={imgTopper}></div>
-                    <div className={contentCon}>
+                    <section className={contentCon}>
                         <div className={imgSpeakerIcon}></div>
                         <h1 className={h1Style}><span>Life's Chapter 1</span></h1>
                         <h1 className={h1Style}>Herman's Exclusive Interview</h1>
                         <div className={videoCon}>
                             <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FDrSuccessMan%2Fvideos%2F5855939064510164%2F&show_text=false&width=560&t=0" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
                         </div>
-                    </div>
+                    </section>
                 </main>
             }
 
