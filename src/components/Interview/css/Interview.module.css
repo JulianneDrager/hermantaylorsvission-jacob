@@ -1,35 +1,91 @@
-.interviewCon {
-    background-color: yellow;
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Heebo:wght@100;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100;400;500;700&family=Montserrat:ital,wght@1,300&display=swap");
 
+@font-face {
+  font-family: "Norwester";
+  src: url("../../../font/Norwester-eRV6.otf") format("truetype");
+}
+
+.mainCon {
+    position: relative;
+    z-index: 1;
     width: clamp(320px, 100%, 600px);
+    padding: 14vw 0;
 
+    background-color: #a88d4d;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .imgBackground {
-    background-color: rgb(157, 0, 255);
-    width: 100px;
-    height: 100px;
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+
+    background-image: url("../../../images/mobile-interview-images/mobile-contact-fade-background.png");
+    background-size: cover;
+
+    width: 100%;
+    aspect-ratio: 600 / 422;
 }
 
 .imgTopper {
-    background-color: chartreuse;
-    width: 100px;
-    height: 100px;
+    position: absolute;
+    z-index: 2;
+    top: -230px;
+
+    background-image: url("../../../images/mobile-interview-images/mobile-top-fire.png");
+    background-size: cover;
+
+    width: 100%;
+    aspect-ratio: 693 / 541;
+
+    border: red 2px dashed;
 }
 
 .contentCon {
-    width: 100%
+    position: relative;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+
+.imgSpeakerIcon {
+    width: 20%;
+    margin-bottom: 5vw;
+    aspect-ratio: 124 / 108;
+    
+    background-image: url("../../../images/mobile-interview-images/mobile-contact-icon.png");
+    background-size: cover;
+
 }
 
 .h1Style {
+    width: 70%;
+    margin: 0;
 
+    font-family: "Norwester";
+    text-align: center;
+    font-size: 6vw;
+    line-height: 6vw;
+    letter-spacing: 0.4vw;
+    color: white;
+    text-transform: uppercase;
+}
+
+.h1Style > span {
+    color: #3b1c48;
 }
 
 .videoCon {
-    width: 100%
+    margin-top: 5vw;
+    width: 90%;
+    aspect-ratio: 3 / 2;
+    background-color: #3b1c48;
 }
 
 .videoCon > iframe {
